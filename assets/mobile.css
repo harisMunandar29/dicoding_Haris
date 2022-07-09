@@ -1,0 +1,56 @@
+@media screen and (max-width: 700px) {
+  .list {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    margin-left: auto;
+  }
+
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(32, 31, 31);
+  }
+
+  main {
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+  }
+
+  main #content {
+    width: 100vw;
+    flex-direction: column;
+  }
+
+  .title-content {
+    width: 100%;
+    word-wrap: break-word;
+    font-size: 1rem;
+    color: red;
+  }
+
+  .hero-image {
+    display: none;
+  }
+
+  .hero-content {
+    padding: 20px;
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-image-mobile {
+    display: flex;
+    width: 100%;
+  }
+}
